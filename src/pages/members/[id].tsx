@@ -22,6 +22,7 @@ const Page: NextPage<Props> = (props) => {
   const {
     id,
     name,
+    role,
     bio,
     avatarSrc,
     twitterUsername,
@@ -45,6 +46,7 @@ const Page: NextPage<Props> = (props) => {
               />
             </div>
             <h1 className="member-header__name">{name}</h1>
+            <p className="member-header__bio">{role}</p>
             <p className="member-header__bio">{bio}</p>
             <div className="member-header__links">
               {twitterUsername && (
