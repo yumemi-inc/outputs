@@ -1,0 +1,109 @@
+$side-padding: 1.6rem;
+$side-padding-sm: 1rem;
+.post-list-empty {
+  padding: 5rem 0;
+  text-align: center;
+  font-weight: 700;
+  color: var(--color-base-text-lighter);
+  font-size: 1.4rem;
+}
+.post-link {
+  display: flex;
+  flex-flow: column;
+  position: relative;
+  background: var(--color-base-background-lighter);
+}
+.post-link__author {
+  padding: 1.6rem $side-padding 0;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  line-height: 1.4;
+  @include mq(sm) {
+    padding: 1.4rem $side-padding-sm 0;
+  }
+}
+.post-link__main-link {
+  padding: 1.1rem $side-padding 1.5rem;
+  flex: 1;
+  display: flex;
+  flex-flow: column;
+  @include mq(sm) {
+    padding: 1rem $side-padding-sm 1.2rem;
+  }
+}
+.post-link__date {
+  color: var(--color-base-text-lighter);
+  font-size: 12px;
+}
+
+.post-link__author-img {
+  border-radius: 25%;
+  margin-right: 0.7rem;
+}
+.post-link__title {
+  font-size: 1.1rem;
+  flex: 1;
+}
+
+.post-link__site {
+  margin-top: 0.9rem;
+  color: var(--color-base-text-lighter);
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+.post-link__site-favicon {
+  border-radius: 3px;
+  margin-right: 6px;
+}
+.post-link__new-label {
+  position: absolute;
+  right: -5px;
+  top: -5px;
+  display: block;
+  text-align: center;
+  width: 38px;
+  height: 38px;
+  line-height: 38px;
+  font-size: 11px;
+  font-weight: bold;
+  color: #fff;
+  background: var(--color-primary-background);
+  border-radius: 12px;
+  @include mq(sm) {
+    right: 0;
+    top: 0;
+    height: 20px;
+    line-height: 20px;
+    width: 34px;
+    border-radius: 0;
+    font-size: 10px;
+  }
+}
+
+.post-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  .post-link {
+    margin-top: 5%;
+    width: 47.5%;
+    @include mq(sm) {
+      margin-top: 1.3rem;
+      width: 100%;
+    }
+  }
+}
+.post-list-load {
+  margin-top: 3rem;
+  text-align: center;
+}
+.post-list-load__button {
+  border: solid 1px var(--color-border);
+  padding: 0.9em 2em;
+  border-radius: 2.5em;
+  font-size: 0.9rem;
+  color: var(--color-base-text-lighter);
+  overflow-anchor: none;
+}

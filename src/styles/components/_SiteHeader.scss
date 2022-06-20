@@ -1,0 +1,28 @@
+.site-header {
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  background: var(--color-base-background);
+  z-index: 99;
+}
+.site-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.site-header__logo-link {
+  display: flex;
+  align-items: center;
+}
+.site-header__logo-img {
+  height: 35px;
+}
+
+.site-header__links {
+  display: flex;
+  align-items: center;
+}
+.site-header__link {
+  margin-left: 1.5rem;
+  font-size: 0.95rem;
+}
