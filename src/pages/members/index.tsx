@@ -36,7 +36,7 @@ const Page: NextPage = () => {
       <ContentWrapper>
         <section className="members">
           <h1 className="members__title">
-            Members{" "}
+            メンバー{" "}
             <span className="members__title-team">
               @ {config.siteMeta.teamName}
             </span>
