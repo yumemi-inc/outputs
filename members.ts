@@ -32,4 +32,19 @@ export const members: Member[] = [
     githubUsername: "lunain84",
     websiteUrl: "https://lapras.com/public/KX7EOYS",
   },
+  {
+    id: "yu-ichiro",
+    name: "Yuichiro Luke Smith",
+    role: "エンジニア & 取締役",
+    bio: "JIKKEN担当大臣",
+    avatarSrc: "https://github.com/yu-ichiro.png",
+    sources: [
+      "https://zenn.dev/yuichiro/feed",
+      "https://qiita.com/yu-ichiro/feed",
+    ],
+    includeUrlRegex: "zenn.dev|qiita.com",
+    twitterUsername: "yu___smith",
+    githubUsername: "yu-ichiro",
+    websiteUrl: "https://blog.yu-smith.com/",
+  },
 ];
