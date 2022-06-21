@@ -20,7 +20,7 @@ export const members: Member[] = [
     id: "fuwasegu",
     name: "Hirosugu Takeshita",
     role: "コーポレートエンジニア",
-    bio: "車輪の破壊担当",
+    bio: "車輪の破壊担当｜自撮り陶芸家",
     avatarSrc: "https://github.com/lunain84.png",
     sources: [
       "https://zenn.dev/fuwasegu/feed",
